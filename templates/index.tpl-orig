@@ -1,0 +1,374 @@
+<html>
+  <head>
+    <title>Osteola</title>
+    <meta charset="utf8">
+
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/main.css">
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/carusel/style.css" />
+
+    <script type="text/javascript" src="{{ STATIC_URL }}/js/main.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}/js/sammy-latest.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('main:scriptjs') }}"></script>
+
+  </head>
+
+
+  <body>
+
+    <div class="wrapperpage">
+      <div class="header">
+
+        <div class="header_top">
+
+          <div class="header_logo">
+            Logo
+          </div>			<!-- Close for <div class="header_logo"> -->
+
+          <div class="header_info_search">
+            <div class="header_site_name">
+              Остеопатическая Клиника
+            </div>			<!-- Close for <div class="header_site_name"> -->
+            <div class="header_address">
+              ул. Проспект Мира 17, корп. 5
+            </div>			<!-- Close for <div class="header_address"> -->
+            <div class="header_time_phone">
+              <div class="header_time">
+                с 10:00 до 20:00
+              </div>			<!-- Close for <div class="header_time"> -->
+              <div class="header_phone">
+                +7(495)555-05-55
+              </div>			<!-- Close for <div class="header_phone"> -->
+            </div>			<!-- Close for <div class="header_time_phone"> -->
+            <div class="info_search">
+              <input type="text">
+            </div>			<!-- Close for <div class="info_search"> -->
+          </div>			<!-- Close for <div class="header_info_search"> -->
+
+          <div class="header_block_auth">
+            <div class="block_auth_login">
+              Login
+            </div>			<!-- Close for <div class="block_auth_login"> -->
+            <div class="block_auth_password">
+              Password
+            </div>			<!-- Close for <div class="block_auth_password"> -->
+            <div class="block_auth_submit">
+              <input type="submit" value="Ok">
+            </div>			<!-- Close for <div class="block_auth_submit"> -->
+            <div class="block_auth_reg_forgot">
+
+              <div class="block_auth_forgot">
+                forgot
+              </div>			<!-- Close for <div class="block_auth_forgot"> -->
+
+              <div class="block_auth_reg">
+                reg
+              </div>			<!-- Close for <div class="block_auth_reg"> -->
+
+            </div>			<!-- Close for <div class="block_auth_reg_forgot"> -->
+            <div class="block_auth_socials">
+              Socials
+            </div>			<!-- Close for <div class="block_auth_socials"> -->
+          </div>			<!-- Close for <div class="header_block_auth"> -->
+
+        </div>				<!-- Close for <div class="header_top"> -->
+
+        <div class="header_bottom">
+<ul id="menu">
+        <li><a href="#">Zakazy</a></li>
+        <li>
+                <a href="#">Statistika</a>
+                <ul>
+                        <li>
+                                <a href="#">CSS</a>
+                                <ul>
+                                        <li><a href="#">Item 11</a></li>
+                                        <li><a href="#">Item 12</a></li>
+                                        <li><a href="#">Item 13</a></li>
+                                        <li><a href="#">Item 14</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                                <a href="#">Graphic design</a>
+                                <ul>
+                                        <li><a href="#">Item 21</a></li>
+                                        <li><a href="#">Item 22</a></li>
+                                        <li><a href="#">Item 23</a></li>
+                                        <li><a href="#">Item 24</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                                <a href="#">Development tools</a>
+                                <ul>
+                                        <li><a href="#">Item 31</a></li>
+                                        <li><a href="#">Item 32</a></li>
+                                        <li><a href="#">Item 33</a></li>
+                                        <li><a href="#">Item 34</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                                <a href="#">Web design</a>
+                                <ul>
+                                        <li><a href="#">Item 41</a></li>
+                                        <li><a href="#">Item 42</a></li>
+                                        <li><a href="#">Item 43</a></li>
+                                        <li><a href="#">Item 44</a></li>
+                                </ul>
+                        </li>
+                </ul>
+        </li>
+        <li>
+                <a href="#">Upravlenie</a>
+                <ul>
+                        <li>
+                                <a href="#">Work 1</a>
+                                <ul>
+                                        <li>
+                                                <a href="#">Work 11</a>
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">Work 111</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 112</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 113</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+
+                                        <li>
+                                                <a href="#">Work 12</a>
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">Work 121</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 122</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 123</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <a href="#">Work 13</a>
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">Work 131</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 132</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 133</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                        </li>
+                        <li>
+                                <a href="#">Work 2</a>
+                                <ul>
+                                        <li>
+                                                <a href="#">Work 21</a>
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">Work 211</a>
+
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 212</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 213</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <a href="#">Work 22</a>
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">Work 221</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 222</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 223</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <a href="#">Work 23</a>
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">Work 231</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 232</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 233</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+
+                                </ul>
+                        </li>
+                        <li>
+                                <a href="#">Work 3</a>
+                                <ul>
+                                        <li>
+                                                <a href="#">Work 31</a>
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">Work 311</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 312</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 313</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <a href="#">Work 32</a>
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">Work 321</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 322</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 323</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <a href="#">Work 33</a>
+
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">Work 331</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 332</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Work 333</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                        </li>
+                </ul>
+        </li>
+        <li>
+                <a href="#">Karta</a>
+        </li>
+        <li>
+                <a href="#">Contact</a>
+        </li>
+</ul>
+
+
+        </div>				<!-- Close for <div class="header_bottom"> -->
+      </div>				<!-- Close for <div class="header"> -->
+      <div class="content">
+        <div class="doctors_block">
+          <div class="doctors_block_name">
+            Запись на приём к врачу:
+          </div>			<!-- Close for <div class="doctors_block_name"> -->
+          <div class="doctors_block_content">
+            <div class="doctors_specialization">
+              <div class="doctors_specialization_name">
+                Osteopaty:
+              </div>			<!-- Close for <div class="doctors_specialization_name" -->
+              <div class="doctors_specialization_content">
+
+
+                <div class="container">
+                  <div id="ca-container" class="ca-container">
+                    <div class="ca-wrapper">
+                      <div class="ca-item ca-item-71">
+                        <div class="ca-item-main" style="background-color: red;">
+                          </div>
+                        </div>
+                        <div class="ca-item ca-item-72">
+                          <div class="ca-item-main" style="background-color: orange;">
+                        </div>
+                      </div>
+                      <div class="ca-item ca-item-73">
+                        <div class="ca-item-main" style="background-color: yellow;">
+                        </div>
+                      </div>
+                      <div class="ca-item ca-item-71">
+                        <div class="ca-item-main" style="background-color: green;">
+                        </div>
+                      </div>
+                      <div class="ca-item ca-item-72">
+                        <div class="ca-item-main" style="background-color: aqua;">
+                        </div>
+                      </div>
+                      <div class="ca-item ca-item-73">
+                        <div class="ca-item-main" style="background-color: blue">
+                        </div>
+                      </div>
+                      <div class="ca-item ca-item-71">
+                        <div class="ca-item-main" style="background-color: purple;">
+                        </div>
+                      </div>
+                      <div class="ca-item ca-item-72">
+                        <div class="ca-item-main" style="background-color: pink;">
+                        </div>
+                      </div>
+                      <div class="ca-item ca-item-71">
+                        <div class="ca-item-main" style="background-color: blue;">
+                        </div>
+                      </div>
+                      <div class="ca-item ca-item-72">
+                        <div class="ca-item-main" style="background-color: aqua;">
+                        </div>
+                      </div>
+                      <div class="ca-item ca-item-73">
+                        <div class="ca-item-main" style="background-color: brown;">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+                <script type="text/javascript" src="{{ STATIC_URL }}/js/carusel/jquery.easing.1.3.js"></script>
+                <!-- the jScrollPane script -->
+                <script type="text/javascript" src="{{ STATIC_URL }}/js/carusel/jquery.contentcarousel.js"></script>
+                <script type="text/javascript">
+                        $('#ca-container').contentcarousel();
+                </script>
+
+
+
+              </div>			<!-- Close for <div class="doctors_specialization_content" -->
+            </div>			<!-- Close for <div class="doctors_specialization"> -->
+          </div>			<!-- Close for <div class="doctors_block_content"> -->
+        </div>				<!-- Close for <div class="doctors_block"> -->
+
+        <div class="seminars_block">
+          <div class="seminars_block_name">
+            Запись на семинар:
+          </div>			<!-- Close for <div class="seminars_block_name"> -->
+          <div class="seminar_block_content">
+            Seminars
+          </div>			<!-- Close for <div class="seminar_block_content"> -->
+        </div>				<!-- Close for <div class="seminars_block"> -->
+      </div>				<!-- Close for <div class="content"> -->
+    </div> 				<!-- Close for <div class="wrapperpage"> -->
+    <div class="footer">Это подвал</div>
+
+  </body>
+</html>
+

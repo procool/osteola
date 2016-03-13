@@ -1,0 +1,87 @@
+.calendar_widget_buttons_wrap {
+    clear: both;
+    display: inline-table;
+    border-collapse: separate;
+    border-spacing: 3px;
+    width: 100%;
+}
+
+.calendar_widget_buttons {
+    display: table-row;
+    padding-left: 0px;
+    font: 14px Verdana, Geneva, sans-serif;
+}
+
+
+.calendar_widget_buttons div {
+    display: table-cell;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.calendar_widget_bt_year_prev {
+    width: 30px;
+    background-color: #E76D13;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.calendar_widget_bt_month_prev {
+    width: 30px;
+    background-color: #E76D13;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.calendar_widget_bt_year_next {
+    text-align: right;
+    width: 30px;
+    background-color: #E76D13;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.calendar_widget_bt_month_next {
+    text-align: right;
+    width: 30px;
+    background-color: #E76D13;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.calendar_widget__header_date {
+    background-color: inherit;
+    border: 0px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.calendar_widget_line {
+    clear: both;
+    width: inherit;
+    height: inherit;
+}
+
+.calendar_widget_wdays {
+    clear: both;
+}
+
+.calendar_widget_wdays div {
+    float: left;
+    padding: 0px 1px 0px 1px;
+    text-align: center;
+}
+
+.calendar_widget_day {
+    float: left;
+    border: 1px solid black;
+    background-color: #eeeeee;
+}
+
+
+
+.calendar_widget_currentmonth {
+    background-color: #ffffff;
+}
+
+.calendar_widget_currentday {
+    background-color: #ffcccc;
+    border: 5px solid red;
+}
