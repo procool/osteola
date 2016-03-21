@@ -1,0 +1,16 @@
+.seminars_block {
+  background-color: #999999;
+  float: right;
+  width: 600px;
+  overflow: hidden;
+}
+
+.seminars_block_name {
+  background-color: #CCCC99;
+  text-align: center;
+}
+
+.seminars_block_content {
+  background-color: indigo;
+}
+

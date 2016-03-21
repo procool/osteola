@@ -1,0 +1,18 @@
+.search {
+  overflow: hidden; 
+  padding: 1px; 
+  float: left; 
+  width: 495px; 
+  border: 1px black solid; 
+  overflow: hidden;
+}
+
+.search input {
+  width: 475px; 
+}
+
+.search img {
+  float: right; 
+  cursor: pointer; 
+  overflow: hidden;
+}

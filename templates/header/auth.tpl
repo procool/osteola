@@ -1,36 +1,46 @@
-          <div class="header_block_auth">
+<div class="header_block_auth" style="background-color: none;">
 
-            <div class="block_auth_login" style="float: left; padding: 15px 20px 0px 20px;">
-              Логин: 
-            </div>                      <!-- Close for <div class="block_auth_login"> -->
-            <div class="block_auth_login">
-<form class="searchform" style="margin-top: 10px;">
- <input class="searchfield" style=" width: 120px; height: 20px;"type="text" value="" onfocus="if (this.value == 'Логин') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Логин';}" />
-</form>
-            </div>                      <!-- Close for <div class="block_auth_login"> -->
+  <div class="block_auth_login">
+    <input type="text" placeholder="Логин">
+  </div>                      	<!-- Close for <div class="block_auth_login"> -->
 
-            <div class="block_auth_login" style="float: left; padding: 15px 12px 0px 20px;">
-              Пароль: 
-            </div>                      <!-- Close for <div class="block_auth_login"> -->
-            <div class="block_auth_login">
-<form class="searchform" style="margin-top: 10px;">
- <input class="searchfield" style=" width: 120px; height: 20px;"type="text" value="" onfocus="if (this.value == 'Логин') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Логин';}" />
-</form>
-            </div>                      <!-- Close for <div class="block_auth_login"> -->
+  <div class="block_auth_password">
+    <input type="text" placeholder="Пароль">
+  </div>                      	<!-- Close for <div class="block_auth_password"> -->
 
+  <div class="block_auth_manipulations">
 
+    <div class="block_auth_reg blink">
+      <a href="/#reg">Регистрация</a>
+    </div>			<!-- Close for <div class="block_auth_reg"> -->
 
-            <div class="block_auth_reg_forgot" style="padding-top: 5px; padding-left: 50px; font-size: 12px; cursor: pointer;">
+    <div class="block_auth_repair blink">
+      <a href="/#repair">Вспомнить пароль</a>
+    </div>			<!-- Close for <div class="block_auth_repair"> -->
 
+    <div class="block_auth_submit">
+      <a href="/#cabinet" onClick="alert('Нарисовать блок авторизованного пользователя!');" class="button">Ok</a>
+    </div>			<!-- Close for <div class="block_auth_submit"> -->
 
-              <div class="block_auth_forgot" style="text-decoration-style:dashed;">
-                Восстановить пароль
-              </div>                    <!-- Close for <div class="block_auth_forgot"> -->
+  <div class="block_auth_socials">
+    <div class="socials_item pulse">
+      <img src="{{ STATIC_URL }}/img/socials/fb.png" title="Войти через facebook">
+    </div>			<!-- Close for <div class="socials_item"> -->
 
-              <div class="block_auth_reg" style="color: red;">
-                Регистрация
-              </div>                    <!-- Close for <div class="block_auth_reg"> -->
+    <div class="socials_item pulse">
+      <img src="{{ STATIC_URL }}/img/socials/tw.png" title="Войти через twitter">
+    </div>			<!-- Close for <div class="socials_item"> -->
 
-            </div>                      <!-- Close for <div class="block_auth_reg_forgot"> -->
-          </div>                        <!-- Close for <div class="header_block_auth"> -->
+    <div class="socials_item pulse">
+      <img src="{{ STATIC_URL }}/img/socials/li.png" title="Войти через linkedin">
+    </div>			<!-- Close for <div class="socials_item"> -->
+
+    <div class="socials_item pulse">
+      <img src="{{ STATIC_URL }}/img/socials/gp.png" title="Войти через google+">
+    </div>			<!-- Close for <div class="socials_item"> -->
+  </div>			<!-- Close for <div class="block_auth_socials"> -->
+
+  </div>			<!-- Close for <div class="block_auth_manipulations"> -->
+
+</div>				<!-- Close for <div class="header_block_auth"> -->
 

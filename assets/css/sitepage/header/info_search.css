@@ -1,0 +1,90 @@
+.header_infosearch_wrapper {
+  float: left;
+  width: 74%;
+  overflow: hidden;
+}
+
+.infosearch_left_wrapper {
+  float: left; 
+  overflow: hidden;
+  width: 540px;
+}
+
+.infosearch_clinic {
+  overflow: hidden;
+}
+
+.infosearch_banner {
+  overflow: hidden;
+  width: 530px;
+}
+
+.infosearch_right_wrapper {
+  float: right; 
+  overflow: hidden;
+}
+
+.infosearch_righttop {
+  overflow: hidden;
+}
+
+.infosearch_righttop_sitename {
+  float: left; 
+  overflow: hidden;
+  margin: 0px 40px 0px 10px;
+}
+
+.infosearch_righttop_phonetimebutton {
+  float: left; 
+  overflow: hidden;
+  margin: 15px 1px 0px 0px;
+}
+
+.infosearch_righttop_phonetime {
+  overflow: hidden;
+}
+
+.infosearch_righttop_phone {
+  font-size: 23px; 
+  font-style: italic;  
+  overflow: hidden; 
+  margin: 3px 0px 0px 0px;
+}
+
+.infosearch_righttop_time {
+  text-align: right; 
+  overflow: hidden; 
+}
+
+.infosearch_righttop_button {
+  overflow: hidden;
+  text-align: right; 
+  margin: 5px 0px 0px 0px; 
+  padding: 5px;
+  overflow: hidden; 
+}
+
+.infosearch_rightbottom {
+  overflow: hidden;
+}
+
+.infosearch_rightbottom_mapaddress {
+  padding: 14px 0px 5px 0px; 
+  overflow: hidden;
+}
+
+.infosearch_rightbottom_address {
+  margin: 0px 100px 0px 0px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.infosearch_rightbottom_map {
+  float: right;
+  font-size: 20px;
+}
+
+.infosearch_rightbottom_search {
+  overflow: hidden;
+}
+

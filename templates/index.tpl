@@ -1,22 +1,22 @@
 <html>
   <head>
+
     <title>Osteola</title>
+
     <meta charset="utf8">
 
-    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/main.css">
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/index.css">
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/carusel/style.css" />
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/calendar_widget.css" />
-
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/modal.css" />
 
 
     <script type="text/javascript" src="{{ STATIC_URL }}/js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}/js/sammy-latest.min.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}/js/calendar_widget.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}/js/modal.js"></script>
 
     <script type="text/javascript" src="{{ url_for('contentloader:scriptjs') }}"></script>
-
-
-    <script type="text/javascript" src="{{ STATIC_URL }}/js/calend.js"></script>
 
   </head>
 
@@ -27,9 +27,10 @@
 
       {% include 'header/index.tpl' %}
 
-      <div class="maincontent">
-
-      </div>				<!-- Close for <div class="maincontent"> -->
+      <div class="fadedwindow" style="z-index: 11000">
+      </div>				<!-- Close for <div class="fadedwindow"> -->
+      <div class="wrapper_content">
+      </div>				<!-- Close for <div class="wrapper_content"> -->
     </div> 				<!-- Close for <div class="wrapperpage"> -->
     <div class="footer">footer</div>
 

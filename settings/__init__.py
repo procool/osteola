@@ -1,10 +1,13 @@
 FLASKCONFIG = 'flaskconfig'
 
 APPLICATIONS = (
-    'main', 
-    'contentloader', 
+    'auth',
     'cabinet',
     'calend',
+    'contentloader', 
+    'doctors',
+    'main', 
+    'map', 
 )
 
 DEFAULT_HEADERS = {

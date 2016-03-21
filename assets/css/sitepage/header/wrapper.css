@@ -1,0 +1,19 @@
+@import url(/static/css/sitepage/header/auth.css);
+@import url(/static/css/sitepage/header/info_search.css);
+@import url(/static/css/sitepage/header/logo.css);
+@import url(/static/css/sitepage/header/horizontal_menu.css);
+
+.header {
+  overflow: hidden;
+}
+
+
+.header_top {
+  overflow: hidden;
+}
+
+
+.header_bottom {
+  overflow: hidden;
+}
+

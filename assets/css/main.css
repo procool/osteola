@@ -1,7 +1,10 @@
-* {margin: 0; padding: 0;} /* обнуляем отступы */
+/* flushing offsets */
+* {margin: 0; padding: 0;} 
 
+
+/* page height */
 html,body {
-  height: 100%; /* задаем высоту тела документа */
+  height: 100%; 
 }
 
 
@@ -9,18 +12,21 @@ body {
   background: #fff;
 }
 
-.wrapperpage { /* основной блок, который должен растянуться до подвала */
-  background: #999; /* цвет фона основного блока (для наглядности) */
-  min-height: 100%; /* задаем минимальную высоту основного блока */
+
+/* main block is stretched to footer */
+.wrapperpage { 
+  background: #999; 
+  min-height: 100%; 
 }
 
 
-* html .wrapperpage { /* хак для ie6 */
-  height: 100%; /* для ие6, т.к. не понимает min-height */
+* html .wrapperpage { /* hack for ie6 */
+  height: 100%;       /* hack for ie6 */
 }
 
-.header {
-}
+
+.header {}
+
 
 .header_top {
   height: 100px;
@@ -28,12 +34,11 @@ body {
 }
 
 
-.header_info_search {
-}
-.header_site_name {
-}
-.header_address {
-}
+.header_info_search {}
+.header_site_name {}
+.header_address {}
+
+
 .header_time_phone {
   overflow: hidden;
 }
@@ -76,17 +81,13 @@ body {
   width: 23%;
   margin-left: 10px;
   margin-tom: 10px;
-}
-
-.header_block_auth {
+  background-color: yellow;
   overflow: hidden;
 }
-.block_auth_login {
-}
-.block_auth_password {
-}
-.block_auth_submit {
-}
+
+
+.block_auth_login {}
+.block_auth_password {}
 .block_auth_reg_forgot {
   overflow: hidden;
 }

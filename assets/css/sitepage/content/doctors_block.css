@@ -1,0 +1,40 @@
+.doctors_block {
+  background-color: #CCCC99;
+  float: left;
+  width: 600px;
+  overflow-y: hidden;
+  height: 385px;
+}
+
+.doctors_block_name {
+  background-color: #99CC99;
+  text-align: center;
+}
+
+.doctors_block_content {
+  margin: 10px;
+  overflow: hidden;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  height: 330px;
+
+}
+
+.doctors_specialization {
+  background-color: none;
+  overflow: hidden;
+}
+
+.doctors_specialization_name {
+  background-color: #FFCC66;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  padding-left: 40px;
+  border-radius: 15px 15px 0px 0px;
+}
+.doctors_specialization_content {
+  background-color: #ffff99;
+  overflow: hidden;
+  margin-right: 20px;
+}
+

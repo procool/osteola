@@ -1,0 +1,9 @@
+@import url(/static/css/sitepage/content/doctors_block.css);
+@import url(/static/css/sitepage/content/seminars_block.css);
+
+.wrapper_content {
+  background-color: none;
+  padding: 20px;
+  overflow: hidden;
+}
+

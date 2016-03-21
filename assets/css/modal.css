@@ -1,0 +1,51 @@
+body > a {
+        font-family: verdana, sans-serif;
+        font-size: 18px;
+        margin: 50px auto;
+        display: block;
+        width: 200px
+}
+.modal-window {
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: fixed;
+        overflow-y: scroll;
+        z-index: 19999;
+}
+.window-container {
+        background: #ffffff;
+        display: block;
+        margin: 10% auto;
+        padding: 10px;
+        width: 500px;
+        z-index: 9999;
+        opacity: 0;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+        transition: 0.4s;
+}
+.animation {
+        -webkit-transform:  scale(0.5);
+        -moz-transform:  scale(0.5);
+        -ms-transform:  scale(0.5);
+        transform:  scale(0.5);
+}
+
+.visible {
+        opacity: 1;
+        -webkit-transform:  scale(1);
+        -moz-transform:  scale(1);
+        -ms-transform:  scale(1);
+        transform:  scale(1);
+}
+.close {
+        display: block;
+        cursor: pointer;
+}
+

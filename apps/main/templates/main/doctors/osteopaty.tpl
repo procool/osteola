@@ -2,12 +2,14 @@
                         <div id="ca-container" class="ca-container">
                                 <div class="ca-wrapper">
                                         <div class="ca-item ca-item-71">
-                                                <div class="ca-item-main" style="cursor: pointer; width: 100px; overflow:hidden; font-size: 11px; ">
-                                                  <img src="{{ STATIC_URL }}/img/carusel/lico/t/6.gif" title="Записаться на прием, 
-                                                  ближайшее время 7:30">
-                                                  <div style="color: black;">Андрей Петров</div>
-                                                  <div style="color: black; font-size: 13px;" >Доцент, МФУ</div>
-                                                </div>
+                                                <a href="/#doctordetails">
+                                                  <div class="ca-item-main" style="cursor: pointer; width: 100px; overflow:hidden; font-size: 11px; ">
+                                                    <img src="{{ STATIC_URL }}/img/carusel/lico/t/6.gif" title="Записаться на прием, 
+                                                    ближайшее время 7:30">
+                                                    <div style="color: black;">Андрей Петров</div>
+                                                    <div style="color: black; font-size: 13px;" >Доцент, МФУ</div>
+                                                  </div>
+                                                </a> 
                                         </div>
                                         <div class="ca-item ca-item-72">
                                                 <div class="ca-item-main" style="cursor: pointer; width: 100px; overflow:hidden; font-size: 11px; ">
