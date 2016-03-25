@@ -1,0 +1,46 @@
+@import url(/static/css/sitepage/header/wrapper.css);         
+@import url(/static/css/sitepage/content/wrapper.css);         
+
+
+* {margin: 0; padding: 0;}    /* flushing offsets */
+
+html,body {
+  height: 100%;    /* page height */
+}
+
+
+body {
+  background: #FFFFFF;
+}
+
+
+.wrapperpage { 
+  background: #FFFFFF; 
+  min-height: 100%;       /* main block is stretched to footer */
+}
+
+
+* html .wrapperpage {    /* hack for ie6 */
+  height: 100%;          /* hack for ie6 */
+}
+
+
+.wrapper_content {
+  background-color: none;
+  padding: 1.5%;
+  overflow: hidden;
+}
+
+.fadedwindow {
+  z-index: 11000;
+}
+
+
+.footer { /* подвал */
+  background: #0000CC; /* цвет фона подвала (для наглядности) */
+  color: #fff;
+
+  height: 7%; /* высота подвала */
+  margin-top: -4%; /* делаем отрицательный отступ по высоте равный высоте подвла, чтобы четко вписаться в размер экрана */
+}
+

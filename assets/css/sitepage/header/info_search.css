@@ -7,21 +7,33 @@
 .infosearch_left_wrapper {
   float: left; 
   overflow: hidden;
-  width: 540px;
+  width: 52%;
 }
 
 .infosearch_clinic {
   overflow: hidden;
+  padding: 3% 0% 3.5% 0%;
+}
+
+.infosearch_clinic img {
+  max-width: 100%;
 }
 
 .infosearch_banner {
   overflow: hidden;
-  width: 530px;
+  width: 100%;
+  border-radius: 5%;
+  height: 14.3%;
+}
+
+.infosearch_banner img {
+  max-width: 100%;
 }
 
 .infosearch_right_wrapper {
   float: right; 
   overflow: hidden;
+  width: 48%;
 }
 
 .infosearch_righttop {
@@ -31,37 +43,43 @@
 .infosearch_righttop_sitename {
   float: left; 
   overflow: hidden;
-  margin: 0px 40px 0px 10px;
+ // margin: 0% 8% 0% 1%;
+  width: 50%;
+}
+
+.infosearch_righttop_sitename img {
+  max-width: 100%;
 }
 
 .infosearch_righttop_phonetimebutton {
-  float: left; 
+float: left; 
   overflow: hidden;
-  margin: 15px 1px 0px 0px;
+  font-size: 100%;
+width: 50%;
 }
 
 .infosearch_righttop_phonetime {
   overflow: hidden;
+overflow: hidden;
+  margin: 1.5% 0% 0% 0%;
+text-align: right;
 }
 
 .infosearch_righttop_phone {
-  font-size: 23px; 
   font-style: italic;  
   overflow: hidden; 
-  margin: 3px 0px 0px 0px;
+  font-size: 120%; 
 }
 
 .infosearch_righttop_time {
-  text-align: right; 
   overflow: hidden; 
+  font-size: 80%;
 }
 
 .infosearch_righttop_button {
   overflow: hidden;
   text-align: right; 
-  margin: 5px 0px 0px 0px; 
-  padding: 5px;
-  overflow: hidden; 
+  margin: 3% 0% 3% 0%; 
 }
 
 .infosearch_rightbottom {
@@ -69,19 +87,20 @@
 }
 
 .infosearch_rightbottom_mapaddress {
-  padding: 14px 0px 5px 0px; 
+  padding: 3% 0% 0% 0%; 
   overflow: hidden;
+  font-size: 91%;
 }
 
 .infosearch_rightbottom_address {
-  margin: 0px 100px 0px 0px;
-  font-size: 20px;
   font-style: italic;
+  font-size: 125%;
 }
 
 .infosearch_rightbottom_map {
   float: right;
-  font-size: 20px;
+  font-size: 125%;
+margin: 0% 0% 1.5% 0%;
 }
 
 .infosearch_rightbottom_search {

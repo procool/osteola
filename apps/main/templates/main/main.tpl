@@ -1,5 +1,5 @@
       <div class="content">
-        <div class="doctors_block" style="border-radius: 5px;">
+        <div class="doctors_block">
           <div class="doctors_block_name" style="font-size: 25px;">
             Запись на приём к врачу:
           </div>                        <!-- Close for <div class="doctors_block_name"> -->

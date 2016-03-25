@@ -1,9 +1,9 @@
 .doctors_block {
   background-color: #CCCC99;
   float: left;
-  width: 600px;
+  width: 45%;
   overflow-y: hidden;
-  height: 385px;
+  //height: 385px;
 }
 
 .doctors_block_name {

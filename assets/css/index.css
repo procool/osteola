@@ -1,8 +1,32 @@
-@import url(/static/css/sitepage/main.css);         
+/* Styles just for site(content, header, footer, etc...) */
+@import url(/static/css/sitepage/index.css);         
+
+
+/* Effects styles: */
 @import url(/static/css/effects/pulse.css);         
 @import url(/static/css/effects/blink.css);         
+
+
+/* Buttons styles: */
 @import url(/static/css/buttons/button.css);         
+
+
+/* Searchin styles: */
 @import url(/static/css/search.css);         
 
-* {margin: 0; padding: 0;}    /* flushing offsets */
+
+/* Menus styles: */
+@import url(/static/css/horizontal_menu.css);         
+
+
+/* Calendar styles: */
+@import url(/static/css/calendar_widget.css);         
+
+
+/* Carusel styles: */
+@import url(/static/css/carusel/style.css);         
+
+
+/* Modal window style: */
+@import url(/static/css/modal.css);         
 

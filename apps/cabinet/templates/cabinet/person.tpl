@@ -1,26 +1,26 @@
 <div class="content">
-  <div style="font-size: 20px; font-weight: bolder;">
+  <div style="font-size: 20px; font-weight: bolder; padding: 1% 0% 3% 0%;">
     Персональная информация
   </div>
   <div style="background-color: none; float: left; width: 20%;"> 
     <img src="{{ STATIC_URL }}/img/no_photo_f.jpg" width="120px" style="cursor: pointer;">
   </div> 
 
-  <div style="background-color: orange; float: right; width: 80%;"> 
+  <div style="float: right; width: 80%;"> 
 
-    <div>
+    <div style="padding: 0% 0% 1% 0%;">
       <input type="text" placeholder="Фамилия">
     </div>
 
-    <div>
+    <div style="padding: 0% 0% 1% 0%;">
       <input type="text" placeholder="Имя">
     </div>
 
-    <div>
+    <div style="padding: 0% 0% 1% 0%;">
       <input type="text" placeholder="Отчество">
     </div>
 
-    <div>
+    <div style="padding: 0% 0% 1% 0%;">
       <select>
         <option value="1">ведущи сециалист</value>
         <option value="1">массажист</value>
@@ -28,20 +28,20 @@
       </select>
     </div>
 
-    <div>
+    <div style="padding: 0% 0% 1% 0%;">
       <textarea rows="3" cols="50"/>
     </div>
 
-    <div>
+    <div style="padding: 0% 0% 1% 0%;">
       <input type="password" placeholder="Пароль">
     </div>
 
-    <div>
+    <div style="padding: 0% 0% 1% 0%;">
       <input type="password" placeholder="Новый пароль">
     </div>
 
-    <div>
-      <input type="button" value="Ok" style="cursor:pointer;">
+    <div style="padding: 0% 0% 1% 0%;">
+      <a href="/#cabinet" onClick="alert('Нарисовать блок авторизованного пользователя!');" class="button">Ok</a>
     </div>
 
   </div> 

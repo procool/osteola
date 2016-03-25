@@ -1,4 +1,4 @@
-<div class="header_block_auth" style="background-color: none;">
+<div class="header_block_auth" style="font-size: 90%;">
 
   <div class="block_auth_login">
     <input type="text" placeholder="Логин">
@@ -8,7 +8,7 @@
     <input type="text" placeholder="Пароль">
   </div>                      	<!-- Close for <div class="block_auth_password"> -->
 
-  <div class="block_auth_manipulations">
+  <div class="block_auth_manipulations" style="width: 100%;">
 
     <div class="block_auth_reg blink">
       <a href="/#reg">Регистрация</a>
@@ -36,8 +36,9 @@
     </div>			<!-- Close for <div class="socials_item"> -->
 
     <div class="socials_item pulse">
-      <img src="{{ STATIC_URL }}/img/socials/gp.png" title="Войти через google+">
-    </div>			<!-- Close for <div class="socials_item"> -->
+      <img src="{{ STATIC_URL }}/img/socials/gp.png" title="Войти через linkedin">
+    </div>                      <!-- Close for <div class="socials_item"> -->
+
   </div>			<!-- Close for <div class="block_auth_socials"> -->
 
   </div>			<!-- Close for <div class="block_auth_manipulations"> -->

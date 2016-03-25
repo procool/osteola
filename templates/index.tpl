@@ -2,14 +2,8 @@
   <head>
 
     <title>Osteola</title>
-
     <meta charset="utf8">
-
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/index.css">
-    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/carusel/style.css" />
-    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/calendar_widget.css" />
-    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/modal.css" />
-
 
     <script type="text/javascript" src="{{ STATIC_URL }}/js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}/js/sammy-latest.min.js"></script>
@@ -27,11 +21,13 @@
 
       {% include 'header/index.tpl' %}
 
-      <div class="fadedwindow" style="z-index: 11000">
+      <div class="fadedwindow">
       </div>				<!-- Close for <div class="fadedwindow"> -->
       <div class="wrapper_content">
       </div>				<!-- Close for <div class="wrapper_content"> -->
+
     </div> 				<!-- Close for <div class="wrapperpage"> -->
+
     <div class="footer">footer</div>
 
   </body>

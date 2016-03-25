@@ -1,8 +1,10 @@
 .seminars_block {
   background-color: #999999;
   float: right;
-  width: 600px;
+  width: 45%;
   overflow: hidden;
+  border-radius: 5%;
+backgroundp-color: red;
 }
 
 .seminars_block_name {

@@ -1,14 +1,14 @@
 .search {
   overflow: hidden; 
-  padding: 1px; 
+  padding: 0.5%; 
   float: left; 
-  width: 495px; 
+  width: 98.5%;
   border: 1px black solid; 
   overflow: hidden;
 }
 
 .search input {
-  width: 475px; 
+  width: 95%; 
 }
 
 .search img {
