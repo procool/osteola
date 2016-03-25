@@ -1,6 +1,5 @@
 <div class="content">
 
-
   <div style="overflow: hidden;">
     <div style="float: left; padding: 20px; width: 70%;">
 
@@ -111,10 +110,9 @@
         </div>
       </div>
 
-
-
-
     </div>
+
+
     <div style="float: right; overflow: hidden; width: 25%;">
       <div style="font-size: 20px; font-weight: bold; padding: 1% 0% 3% 0%; font-style: italic;">
         Отзывы:

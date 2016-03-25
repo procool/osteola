@@ -1,4 +1,4 @@
-<div class="header_block_auth" style="font-size: 90%;">
+<div class="header_block_auth" style="font-size: 90%; background-color: pink; float: right;">
 
   <div class="block_auth_login">
     <input type="text" placeholder="Логин">

@@ -2,8 +2,7 @@
 
   <div class="header_top">
 
-    {% include 'header/logo.tpl' %}
-    {% include 'header/info_search.tpl' %}
+    {% include 'header/logo_info_search.tpl' %}
     {% include 'header/auth.tpl' %}
 
   </div>                          <!-- Close for <div class="header_top"> -->
