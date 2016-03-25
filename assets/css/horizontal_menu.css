@@ -15,12 +15,12 @@
 
 
         background: #fff;
-        background: -moz-linear-gradient(#aaa, #fff);
-    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #fff),color-stop(1, #aaa));
-        background: -webkit-linear-gradient(#aaa, #fff);
-        background: -o-linear-gradient(#aaa, #fff);
-        background: -ms-linear-gradient(#aaa, #fff);
-        background: linear-gradient(#aaa, #fff);
+        background: -moz-linear-gradient(#669966, #fff);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #fff),color-stop(1, #669966));
+        background: -webkit-linear-gradient(#669966, #fff);
+        background: -o-linear-gradient(#669966, #fff);
+        background: -ms-linear-gradient(#669966, #fff);
+        background: linear-gradient(#669966, #fff);
 
 
         //-moz-border-radius: 50px;
@@ -30,6 +30,7 @@
         -moz-box-shadow: 0 2px 1px #9c9c9c;
         -webkit-box-shadow: 0 2px 1px #9c9c9c;
         box-shadow: 0 2px 1px #9c9c9c;
+
 }
 
 #menu li
@@ -46,7 +47,7 @@
         float: left;
         height: 25px;
         padding: 0 25px;
-        color: #999;
+        color: whitesmoke;
         text-transform: uppercase;
         font: bold 12px/25px Arial, Helvetica;
         text-decoration: none;
