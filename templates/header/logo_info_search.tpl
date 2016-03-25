@@ -5,12 +5,12 @@
       <img src="{{ STATIC_URL }}/img/logo.jpg" width="100%">
     </div>
 
-    <div style="float: left; font-size: 300%; padding: 1% 2% 0% 0%;">
+    <div style="float: left; font-size: 300%; padding: 1% 2% 0% 0%; font-family:'Classica One'; font-weight:200; font-style:normal;">
       Остеола
     </div>
 
     <div style="overflow: hidden; float: left;">
-      <div style="font-size: 160%;">
+      <div style="font-size: 160%; font-family:'Amble'; font-weight:200; font-style:normal; font-style: italic;">
         остеопатическая клиника
       </div>
       <div style="padding: 6% 0% 0% 0%;">

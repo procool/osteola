@@ -3,6 +3,7 @@
 
     <title>Osteola</title>
     <meta charset="utf8">
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/fonts/fonts.css">
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/css/index.css">
 
     <script type="text/javascript" src="{{ STATIC_URL }}/js/jquery-1.10.2.min.js"></script>
